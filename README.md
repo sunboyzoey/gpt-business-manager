@@ -303,4 +303,4 @@ npm run dev
 
 ## 联系方式
 
-- QQ 群：[**1126516016**](https://qm.qq.com/q/iZO2NNcjTO)
+- 问题与建议请通过 [GitHub Issues](https://github.com/sunboyzoey/gpt-business-manager/issues) 提交。
