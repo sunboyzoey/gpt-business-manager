@@ -1,5 +1,7 @@
 # GPT BUSINESS Manager
 
+[![LINUX DO](https://img.shields.io/badge/LINUX-DO-FFB003)](https://linux.do)
+
 面向 Gmail 子号、GPT 账号注册和 BUSINESS 多席位工作区的独立管理系统。项目提供账号导入、代理分配、无头浏览器注册、邮箱验证、密码与 Authenticator 2FA、短信接码、批量邀请、成员退出和可恢复任务。
 
 > 本项目不是 Google 或 OpenAI 官方产品。请仅管理你有权使用的邮箱、账号和工作区，并遵守服务提供方的使用条款。
