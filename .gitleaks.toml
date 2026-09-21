@@ -1,0 +1,4 @@
+title = "Gmail BUSINESS Manager gitleaks configuration"
+
+[extend]
+useDefault = true

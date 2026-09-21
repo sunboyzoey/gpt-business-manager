@@ -1,0 +1,16 @@
+services:
+  app:
+    build: .
+    restart: unless-stopped
+    env_file: .env
+    environment:
+      GBM_HOST: 0.0.0.0
+      GBM_RUNTIME_DIR: /app/data
+    ports:
+      - "127.0.0.1:8011:8011"
+    volumes:
+      - gbm_data:/app/data
+    shm_size: 1gb
+
+volumes:
+  gbm_data:

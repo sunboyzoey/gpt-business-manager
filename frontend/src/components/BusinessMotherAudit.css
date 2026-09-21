@@ -1,0 +1,27 @@
+.business-dead-stamp {
+  display: inline-flex;
+  align-items: center;
+  flex: none;
+  border: 2px double #cf3f46;
+  border-radius: 4px;
+  padding: 1px 7px;
+  color: #cf3f46;
+  font: 800 12px/1.5 ui-monospace, monospace;
+  letter-spacing: 2px;
+  transform: rotate(-8deg);
+  margin: 4px 5px;
+  user-select: none;
+}
+.business-mother-audit .ant-table-cell { vertical-align: top; }
+.business-mother-audit .audit-metrics {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(155px, 1fr));
+  gap: 12px;
+  margin: 16px 0;
+}
+.business-mother-audit .audit-metric {
+  padding: 12px 14px;
+  border: 1px solid var(--audit-border);
+  border-radius: 8px;
+}
+.business-mother-audit .audit-metric strong { display: block; margin-top: 6px; font-size: 19px; }

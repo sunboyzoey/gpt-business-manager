@@ -1,0 +1,10 @@
+Schema migrations are generated and applied with Alembic.
+
+For a new development migration:
+
+    alembic revision --autogenerate -m "describe change"
+    alembic upgrade head
+
+Review generated SQL before committing. Existing installations created before
+the first public release should back up the database and run
+`alembic stamp 0001` once after confirming their schema matches the release.

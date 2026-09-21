@@ -1,0 +1,1 @@
+"""Adobe Firefly platform plugin."""
